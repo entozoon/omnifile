@@ -20,9 +20,12 @@ Requirements for these files:
 - Check/Set the variables in all three files.
 
 How it works:
+
 1. Remote computer double clicks file in the main \\computer, which is 
    set to 'open with' the batch file OmniFile_Opener.bat
+
 2. The batch file runs a php script (OmniFile_Sender.php)
+
 3. The main computer has a listener (OmniFile_Listener.php) which is invoked and opens the given filename
 
 
