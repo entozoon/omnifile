@@ -28,7 +28,11 @@
  */
 
 // Variables
-$omniFileListener = "http://localhost:8888/Everything/OmniFile/OmniFile_Listener.php"; // remote url
+$omniFileListener = "http://localhost/Everything/OmniFile/OmniFile_Listener.php"; // remote 
+
+url
+#$omniFileListener = "http://192.168.1.22/Everything/OmniFile/OmniFile_Listener.php"; // remote url
+
 
 
 #print_r($argv);
